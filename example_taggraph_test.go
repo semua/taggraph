@@ -3,7 +3,7 @@ package taggraph_test
 import (
 	"fmt"
 
-	"github.com/ckaznocha/taggraph"
+	"github.com/semua/taggraph"
 )
 
 func Example_tags() {

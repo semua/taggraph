@@ -55,3 +55,13 @@ type Tagger interface {
 ```
 
 Tagger is an interface for interacting with a node of a TagGrapher
+
+### add by jindongyi
+```go
+type Tagger interface {
+	PathsToAllDescendents() [][]string
+	PathsToAllDescendentsAsString(delim string) []string
+}
+```
+
+Delete ring deadlock problem
